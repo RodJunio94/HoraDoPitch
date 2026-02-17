@@ -1,0 +1,1 @@
+﻿Console.WriteLine("Hora do pitch!");

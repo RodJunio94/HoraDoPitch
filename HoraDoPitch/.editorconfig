@@ -1,0 +1,10 @@
+root = true
+
+[*.cs]
+# Namespace moderno: sem bloco { }
+csharp_style_namespace_declarations = file_scoped:error
+
+# Using não utilizado
+# IDE0005 = using desnecessário
+
+dotnet_diagnostic.IDE0005.severity = warning
